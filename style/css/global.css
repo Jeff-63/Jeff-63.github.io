@@ -1236,7 +1236,7 @@ float:right;
 
 .features__text {
   float: left;
-  width: 65%;
+  width: 100%;
 }
 
 .features__title {
