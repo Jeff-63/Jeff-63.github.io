@@ -1025,7 +1025,16 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   background-position: 50%;
 }
 
-.experience__icon--html5 {
+
+.experience__icon--unity {
+	background-image: url("../img/exp/unity.png");
+}
+
+.experience__icon--unreal {
+	background-image: url("../img/exp/unreal-engine.png");
+}
+
+/*.experience__icon--html5 {
   background-image: url("../img/exp/exp_html5.svg");
 }
 
@@ -1071,7 +1080,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 
 .experience__icon--foundation {
   background-image: url("../img/exp/exp_foundation-glasses.svg");
-}
+}*/
 
 .experience__icon-description {
   display: block;
