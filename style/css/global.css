@@ -1183,7 +1183,15 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   float: left;
 }
 
-.features__image--mobile {
+.features__image--work {
+  background-image: url("../img/feature/work.svg");
+}
+
+.features__image--education {
+  background-image: url("../img/feature/scholarship.svg");
+}
+
+/*.features__image--mobile {
   background-image: url("../img/feature/feature_mobile.svg");
 }
 
@@ -1221,7 +1229,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 
 .features__image--sourcefiles {
   background-image: url("../img/feature/feature_sourcefiles.svg");
-}
+}*/
 
 .features__text {
   float: left;
