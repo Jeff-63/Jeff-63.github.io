@@ -1034,7 +1034,22 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 	background-image: url("../img/exp/unreal-engine.png");
 }
 
-/*.experience__icon--html5 {
+.experience__icon--c {
+	background-image: url("../img/exp/c.png");
+}
+.experience__icon--cpp {
+	background-image: url("../img/exp/cpp.png");
+}
+
+.experience__icon--csharp {
+	background-image: url("../img/exp/csharp.png");
+}
+
+.experience__icon--java {
+	background-image: url("../img/exp/java.png");
+}
+
+.experience__icon--html5 {
   background-image: url("../img/exp/exp_html5.svg");
 }
 
@@ -1046,41 +1061,37 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   background-image: url("../img/exp/exp_javascript.svg");
 }
 
-.experience__icon--sass {
-  background-image: url("../img/exp/exp_sass.svg");
-}
-
 .experience__icon--jquery {
   background-image: url("../img/exp/exp_jquery.svg");
 }
 
-.experience__icon--wordpress {
-  background-image: url("../img/exp/exp_wordpress.svg");
+.experience__icon--opengl {
+	background-image: url("../img/exp/opengl.png");
+}
+
+.experience__icon--sdl {
+	background-image: url("../img/exp/sdl.png");
+}
+
+.experience__icon--sqlite {
+	background-image: url("../img/exp/sqlite.png");
+}
+
+.experience__icon--visualstudio {
+	background-image: url("../img/exp/visualstudio.png");
+}
+
+.experience__icon--eclipse {
+	background-image: url("../img/exp/eclipse.png");
+}
+
+.experience__icon--androidstudio {
+	background-image: url("../img/exp/androidstudio.png");
 }
 
 .experience__icon--git {
   background-image: url("../img/exp/exp_git.svg");
 }
-
-.experience__icon--photoshop {
-  background-image: url("../img/exp/exp_photoshop.svg");
-}
-
-.experience__icon--illustrator {
-  background-image: url("../img/exp/exp_illustrator.svg");
-}
-
-.experience__icon--fireworks {
-  background-image: url("../img/exp/exp_fireworks.svg");
-}
-
-.experience__icon--bootstrap {
-  background-image: url("../img/exp/exp_bootstrap.svg");
-}
-
-.experience__icon--foundation {
-  background-image: url("../img/exp/exp_foundation-glasses.svg");
-}*/
 
 .experience__icon-description {
   display: block;
