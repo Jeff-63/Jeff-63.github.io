@@ -2,11 +2,6 @@
 
 if($_POST)
 {
-
-
-
-
-
 	/*------------------------------------*\
 		Validation
 	\*------------------------------------*/
@@ -43,16 +38,12 @@ if($_POST)
 		die($output);
 	}
 
-
-
-
-
 	/*------------------------------------*\
 		E-mail send
 	\*------------------------------------*/
 
 	//Recipient email, Replace with own email here
-	$to_email = "mail@example.com";
+	$to_email = "jf.feugere@gmail.com";
 
 	//email headers
 	$headers  = "Content-type: text/html; charset=utf-8" . "\r\n";
@@ -69,10 +60,6 @@ if($_POST)
 	//send mail function
 	$send_mail = mail($to_email, $message_subject, $message_body, $headers);
 
-
-
-
-
 	/*------------------------------------*\
 		E-mail status
 	\*------------------------------------*/
@@ -88,11 +75,6 @@ if($_POST)
 		$output = json_encode(array('type'=>'message', 'text' => 'Thanks for message, ' . $sender_name . '. <br> I will reply as fast as I can.'));
 		die($output);
 	}
-
-
-
-
-
 }
 
 ?>
